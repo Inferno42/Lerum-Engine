@@ -1,0 +1,45 @@
+<items>
+
+  <item category="WEAPON">
+    <id>0</id>
+    <itemname>DEBUG WEAPON</itemname>
+    <weightcategory>SUPER_HEAVY</weightcategory>
+    <basedamage>360000</basedamage>
+    <bonuses>
+      <int>5</int>
+      <strength>5</strength>
+    </bonuses>
+  </item>
+
+  <item category="QUESTITEM">
+    <id>1</id>
+  </item>
+
+  <item category="POTION">
+    <id>2</id>
+    <itemname>Health & Speed Potion</itemname>
+    <deltahealth>-40</deltahealth>
+    <deltaspeed>155</deltaspeed>
+    <length>20</length>
+  </item>
+
+  <item category="SPECIAL">
+    <id>3</id>
+
+  </item>
+
+  <item category="WEAPON">
+    <id>4</id>
+    <itemname>DEBUG WEAPON 2</itemname>
+    <weightcategory>SUPER_LIGHT</weightcategory>
+    <basedamage>8</basedamage>
+    <bonuses>
+      <int>5</int>
+      <strength>5</strength>
+    </bonuses>
+  </item>
+
+
+
+
+</items>

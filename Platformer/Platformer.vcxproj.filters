@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SDL">
+      <UniqueIdentifier>{b05c6c93-a4a5-4134-a632-fc808d3e5ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDL">
+      <UniqueIdentifier>{37336e3e-24ee-4776-a3f7-9ec3f8c5f4c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{5e4e90d4-a53f-4617-a85d-c339c25c49a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{4559da70-eb28-49f9-bb6f-216e681bd9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Children">
+      <UniqueIdentifier>{1144d5d1-a18f-49c8-b721-ae36c76e5386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parents">
+      <UniqueIdentifier>{1b78af4d-d692-4832-8e99-5141ec0f3efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Children">
+      <UniqueIdentifier>{3b324b32-6743-49bd-ab80-2a720100254f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parents">
+      <UniqueIdentifier>{68a2b79c-3ce1-4140-a3df-989074ba5957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Primaries">
+      <UniqueIdentifier>{107651a9-f05c-4e7f-bf34-e736bc9aecb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Primaries">
+      <UniqueIdentifier>{84a3776b-42ee-442b-abd6-bc348290db11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{7d251ad7-2bef-489c-81e6-71d02406d938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Scripts">
+      <UniqueIdentifier>{302cd2f9-7bfc-429d-90a6-02d49f3e0c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Levels">
+      <UniqueIdentifier>{72e8b637-3277-4dee-9f10-52a7b8034ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Children\Enemies">
+      <UniqueIdentifier>{53c9ac90-7695-4b6d-83b2-4dd5eaa36ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Children\Enemies">
+      <UniqueIdentifier>{cf780d43-09c3-44bc-a035-2d32ccd8028c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Children\Items">
+      <UniqueIdentifier>{4aaf7d09-501d-4c65-9f45-00ea2f824a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Children\Items">
+      <UniqueIdentifier>{24d0271d-59e2-46fd-bb2e-b8c19909c4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Groupers">
+      <UniqueIdentifier>{cbc0c62e-52d6-4308-a8a4-a33bcc858151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Children\Sub-Inherit">
+      <UniqueIdentifier>{2867f0a8-fed2-4745-8b41-c483439f295a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Children\Sub-Inherit">
+      <UniqueIdentifier>{89f5a3be-d9bd-4241-9a61-e54c1b62f74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Children\GUI">
+      <UniqueIdentifier>{575614ca-2af6-427c-8f38-93bb890f672d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Children\GUI\GUIChildren">
+      <UniqueIdentifier>{c6913b66-4c77-4325-9822-e22cd5804d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Children\GUI">
+      <UniqueIdentifier>{9647fc1a-ff31-42d5-8172-f9c9114af699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Children\GUI\GUIChildren">
+      <UniqueIdentifier>{307194ad-5e25-43ea-90f4-4807f0f92e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Children\GUI\GUIBase">
+      <UniqueIdentifier>{ca1db850-e323-4278-8cd2-aadda5211a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Children\GUI\GUIBase">
+      <UniqueIdentifier>{d31b3295-4819-461f-bb1a-4508d2763bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Children\GUI\UI">
+      <UniqueIdentifier>{3d7cc07d-ee73-4634-8c02-c6d6b6a83c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Children\Items\Item-Classes">
+      <UniqueIdentifier>{174f1e50-74ef-461d-96b8-99fdae3a4ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\XML">
+      <UniqueIdentifier>{edb35dc0-3891-495d-84e9-f0b5e44df2ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Children\GUI\GUI">
+      <UniqueIdentifier>{24705a98-1ec4-4fa0-96ec-83548e9a1a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderController">
+      <UniqueIdentifier>{529cd99f-4947-4d9a-b951-8111b5961d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderController">
+      <UniqueIdentifier>{adc41c7f-f0f3-481b-8cae-7b00960183ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDL\SDL_collide.cpp">
+      <Filter>Source Files\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_Manager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClass.cpp">
+      <Filter>Source Files\Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Primaries</Filter>
+    </ClCompile>
+    <ClCompile Include="Definitions.cpp">
+      <Filter>Source Files\Primaries</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Primaries</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateHandler.cpp">
+      <Filter>Source Files\Primaries</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager.cpp">
+      <Filter>Source Files\Primaries</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Primaries</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Source Files\Children</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Wraith.cpp">
+      <Filter>Source Files\Children\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseNPC.cpp">
+      <Filter>Source Files\Children\Sub-Inherit</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractiveEnt.cpp">
+      <Filter>Source Files\Children\Sub-Inherit</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Children</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\Children\Sub-Inherit</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files\Children\Sub-Inherit</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Children\Sub-Inherit</Filter>
+    </ClCompile>
+    <ClCompile Include="TextHandler.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIText.cpp">
+      <Filter>Source Files\Children\GUI\GUIChildren</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIImage.cpp">
+      <Filter>Source Files\Children\GUI\GUIChildren</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIMaster.cpp">
+      <Filter>Source Files\Children\GUI\GUIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIObject.cpp">
+      <Filter>Source Files\Children\GUI\GUIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIButtonController.cpp">
+      <Filter>Source Files\Children\GUI\GUIChildren</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIButton.cpp">
+      <Filter>Source Files\Children\GUI\GUIChildren</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSystem.cpp">
+      <Filter>Source Files\Children\Sub-Inherit</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\Children\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="InventorySystem.cpp">
+      <Filter>Source Files\Children\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Children\GUI\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu_Item.cpp">
+      <Filter>Source Files\Children\GUI\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderController.cpp">
+      <Filter>Source Files\ShaderController</Filter>
+    </ClCompile>
+    <ClCompile Include="AClock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDL\SDL_collide.h">
+      <Filter>Header Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="DaemonClass.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_Manager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Children</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files\Children</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClass.h">
+      <Filter>Header Files\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Header Files\Primaries</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Primaries</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateHandler.h">
+      <Filter>Header Files\Primaries</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager.h">
+      <Filter>Header Files\Primaries</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Primaries</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Header Files\Children</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Wraith.h">
+      <Filter>Header Files\Children\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Children\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EGRP.h">
+      <Filter>Header Files\Groupers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseNPC.h">
+      <Filter>Header Files\Children\Sub-Inherit</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractiveEnt.h">
+      <Filter>Header Files\Children\Sub-Inherit</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Children\Sub-Inherit</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\Children\Sub-Inherit</Filter>
+    </ClInclude>
+    <ClInclude Include="TextHandler.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LivingEntity.h">
+      <Filter>Header Files\Children\Sub-Inherit</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIText.h">
+      <Filter>Header Files\Children\GUI\GUIChildren</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIImage.h">
+      <Filter>Header Files\Children\GUI\GUIChildren</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIObject.h">
+      <Filter>Header Files\Children\GUI\GUIBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIButton.h">
+      <Filter>Header Files\Children\GUI\GUIChildren</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIButtonController.h">
+      <Filter>Header Files\Children\GUI\GUIChildren</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Primaries</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMaster.h">
+      <Filter>Header Files\Children\GUI\GUIBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\Children\Items\Item-Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSystem.h">
+      <Filter>Header Files\Children\Sub-Inherit</Filter>
+    </ClInclude>
+    <ClInclude Include="InventorySystem.h">
+      <Filter>Header Files\Children\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Children\GUI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu_Item.h">
+      <Filter>Header Files\Children\GUI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderController.h">
+      <Filter>Header Files\ShaderController</Filter>
+    </ClInclude>
+    <ClInclude Include="AClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Scripts\TILE_SETTINGS.ini">
+      <Filter>Data\Scripts</Filter>
+    </None>
+    <None Include="Data\Levels\test_level.dat">
+      <Filter>Data\Levels</Filter>
+    </None>
+    <None Include="Data\items.xml">
+      <Filter>Data\XML</Filter>
+    </None>
+  </ItemGroup>
+</Project>

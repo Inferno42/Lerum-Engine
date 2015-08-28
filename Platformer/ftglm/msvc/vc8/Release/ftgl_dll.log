@@ -1,0 +1,51 @@
+﻿Build started 1/23/2013 8:51:16 PM.
+     1>Project "C:\Users\Christian\Desktop\ftgl-2.1.3~rc5\msvc\vc8\ftgl_dll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "./Release\ftgl_dll.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Christian\Desktop\ftgl-2.1.3~rc5\msvc\vc8\../Build\ftgl_dll.dll) does not match the Linker's OutputFile property value (C:\Users\Christian\Desktop\ftgl-2.1.3~rc5\msvc\Build\ftgl.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(ftgl_dll) does not match the Linker's OutputFile property value (ftgl). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Build/ftgl.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:/objs odbc32.lib odbccp32.lib opengl32.lib glu32.lib freetype240.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"./Release\ftgl_dll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"../Build/ftgl.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../Build/ftgl.lib" /MACHINE:X86 /DLL ./Release_ST/FTBuffer.obj
+         ./Release_ST/FTCharmap.obj
+         ./Release_ST/FTContour.obj
+         ./Release_ST/FTFace.obj
+         ./Release_ST/FTGlyphContainer.obj
+         ./Release_ST/FTLibrary.obj
+         ./Release_ST/FTPoint.obj
+         ./Release_ST/FTSize.obj
+         ./Release_ST/FTVectoriser.obj
+         ./Release_ST/FTBitmapGlyph.obj
+         ./Release_ST/FTBufferGlyph.obj
+         ./Release_ST/FTExtrudeGlyph.obj
+         ./Release_ST/FTGlyph.obj
+         ./Release_ST/FTGlyphGlue.obj
+         ./Release_ST/FTOutlineGlyph.obj
+         ./Release_ST/FTPixmapGlyph.obj
+         ./Release_ST/FTPolygonGlyph.obj
+         ./Release_ST/FTTextureGlyph.obj
+         ./Release_ST/FTBitmapFont.obj
+         ./Release_ST/FTBufferFont.obj
+         ./Release_ST/FTExtrudeFont.obj
+         ./Release_ST/FTFont.obj
+         ./Release_ST/FTFontGlue.obj
+         ./Release_ST/FTOutlineFont.obj
+         ./Release_ST/FTPixmapFont.obj
+         ./Release_ST/FTPolygonFont.obj
+         ./Release_ST/FTTextureFont.obj
+         ./Release_ST/FTLayout.obj
+         ./Release_ST/FTLayoutGlue.obj
+         ./Release_ST/FTSimpleLayout.obj
+            Creating library ../Build/ftgl.lib and object ../Build/ftgl.exp
+         ftgl_dll.vcxproj -> C:\Users\Christian\Desktop\ftgl-2.1.3~rc5\msvc\vc8\../Build\ftgl_dll.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../Build/ftgl.dll;#2" /manifest ./Release\ftgl_dll.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "./Release\ftgl_dll.unsuccessfulbuild".
+         Touching "./Release\ftgl_dll.lastbuildstate".
+     1>Done Building Project "C:\Users\Christian\Desktop\ftgl-2.1.3~rc5\msvc\vc8\ftgl_dll.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.77
